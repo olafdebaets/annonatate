@@ -22,14 +22,25 @@ order: 1
             "type": "Feature"
         },
         {
+            "created": "2025-03-21T13:28:16.709Z",
+            "creator": {
+                "id": "olafdebaets",
+                "name": "olafdebaets"
+            },
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "a",
+            "value": "a"
+        },
+        {
+            "type": "TextualBody",
+            "value": "miaow",
             "purpose": "commenting",
             "creator": {
                 "id": "olafdebaets",
                 "name": "olafdebaets"
             },
-            "created": "2025-03-21T13:28:16.709Z"
+            "created": "2025-03-21T13:29:32.798Z",
+            "modified": "2025-03-21T13:29:34.676Z"
         }
     ],
     "id": "b1a1ef54-cdfb-4bed-9a1e-c19e1ad3edf5.json",
