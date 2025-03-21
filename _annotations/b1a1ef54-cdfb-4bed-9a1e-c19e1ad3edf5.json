@@ -1,0 +1,43 @@
+---
+canvas: "https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/canvas/cat-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16,
+                    48
+                ]
+            },
+            "creator": {
+                "id": "olafdebaets",
+                "name": "olafdebaets"
+            },
+            "created": "2025-03-21T13:27:48.381Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/canvas/cat-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=44.19607925415039,16.823530197143555,111.61764144897461,89.40196418762207"
+        }
+    },
+    "id": "b1a1ef54-cdfb-4bed-9a1e-c19e1ad3edf5.json",
+    "motivation": "commenting"
+}
