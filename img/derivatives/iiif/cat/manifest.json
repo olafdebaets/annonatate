@@ -1,0 +1,72 @@
+---
+added: 2025-03-21 13&#58;23&#58;23.830852
+thumbnail: https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/cats1/full/135,/0/default.jpg
+title: cat
+user: olafdebaets
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "cat"
+    ]
+  },
+  "summary": {
+    "en": [
+      "bbb"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/canvas/cat-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "cats1"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/cats1/full/135,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 187,
+      "width": 270,
+      "items": [
+        {
+          "id": "https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/cats1/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 187,
+                "width": 270,
+                "service": [
+                  {
+                    "id": "https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/cats1",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://olafdebaets.github.io/annonatate/img/derivatives/iiif/cat/canvas/cat-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
