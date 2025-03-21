@@ -6,20 +6,20 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2025-03-21T13:27:48.381Z",
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16,
+                    48
+                ]
+            },
             "creator": {
                 "id": "olafdebaets",
                 "name": "olafdebaets"
             },
-            "geometry": {
-                "coordinates": [
-                    16,
-                    48
-                ],
-                "type": "Point"
-            },
-            "purpose": "geotagging",
-            "type": "Feature"
+            "created": "2025-03-21T13:29:55.988Z"
         },
         {
             "created": "2025-03-21T13:28:16.709Z",
@@ -32,15 +32,36 @@ order: 1
             "value": "a"
         },
         {
-            "type": "TextualBody",
-            "value": "miaow",
-            "purpose": "commenting",
+            "created": "2025-03-21T13:29:32.798Z",
             "creator": {
                 "id": "olafdebaets",
                 "name": "olafdebaets"
             },
-            "created": "2025-03-21T13:29:32.798Z",
-            "modified": "2025-03-21T13:29:34.676Z"
+            "modified": "2025-03-21T13:29:34.676Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "miaow"
+        },
+        {
+            "type": "TextualBody",
+            "value": "c",
+            "purpose": "tagging",
+            "creator": {
+                "id": "olafdebaets",
+                "name": "olafdebaets"
+            },
+            "created": "2025-03-21T13:29:47.775Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "hello",
+            "purpose": "replying",
+            "creator": {
+                "id": "olafdebaets",
+                "name": "olafdebaets"
+            },
+            "created": "2025-03-21T13:30:04.559Z",
+            "modified": "2025-03-21T13:30:05.240Z"
         }
     ],
     "id": "b1a1ef54-cdfb-4bed-9a1e-c19e1ad3edf5.json",
